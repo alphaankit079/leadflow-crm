@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://leadflow-crm-rhhq.onrender.com/api',
 });
 
 // Har request ke saath JWT Token automatically bhejne ke liye
